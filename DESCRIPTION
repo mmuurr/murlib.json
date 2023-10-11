@@ -1,0 +1,22 @@
+Package: murlib.json
+Title: JSON Utilities
+Version: 0.0.0.9000
+Authors@R: 
+    person("Murat", "Tasan",
+           email = "mmuurr@gmail.com",
+	   role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-8155-2565"))
+Description: A collection of JSON utilities.
+             These are mostly just slight changes to the default {jsonlite} API.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    checkmate (>= 2.1.0),
+    jsonlite (>= 1.8.3),
+    murlib.core (>= 0.0.0.9003),
+    rlang (>= 1.1.0)
